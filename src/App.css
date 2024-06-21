@@ -4,3 +4,87 @@
   padding: 2rem;
   text-align: center;
 }
+
+.mainInfoBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 600px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+}
+
+.subBlock {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subBlock h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.subBlock p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.countryFlag {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.countryFlag:hover {
+  border-color: #007bff;
+}
+
+.mainInfoBlock p {
+  font-size: 1.2em;
+}
+.mainBlock {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.ScrollDiv {
+  max-height: 80vh;
+  overflow-y: auto;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  width: 500px;
+}
+
+.ScrollDiv::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ScrollDiv::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+}
+
+.CountryBox {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s;
+}
+
+.CountryBox:hover {
+  background-color: #f1f1f1;
+}
